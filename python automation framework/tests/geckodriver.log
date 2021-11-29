@@ -1,0 +1,62 @@
+1638178944358	geckodriver	INFO	Listening on 127.0.0.1:50206
+1638178947378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50207" "-no-remote" "-profile" "C:\\Users\\siven\\AppData\\Local\\Temp\\rust_mozprofilee5FRzH"
+1638178948104	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\siven\\AppData\\Local\\Temp\\rust_mozprofilee5FRzH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50207/devtools/browser/5d204ad4-92f2-41ae-ac9a-59bacbd77955
+1638178949875	Marionette	INFO	Listening on port 50213
+1638178950062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638178952862	Marionette	INFO	Stopped listening on port 50213
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:186:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:66:5
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+1638185568050	geckodriver	INFO	Listening on 127.0.0.1:60906
+1638185571084	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60907" "-no-remote" "-profile" "C:\\Users\\siven\\AppData\\Local\\Temp\\rust_mozprofilezEXszh"
+1638185571792	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\siven\\AppData\\Local\\Temp\\rust_mozprofilezEXszh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60907/devtools/browser/addeb037-09c3-4376-9997-1742d1be985f
+1638185573417	Marionette	INFO	Listening on port 60913
+1638185573826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638185580978	Marionette	INFO	Stopped listening on port 60913
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:186:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:66:5
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+1638185617044	geckodriver	INFO	Listening on 127.0.0.1:60451
+1638185620057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60452" "-no-remote" "-profile" "C:\\Users\\siven\\AppData\\Local\\Temp\\rust_mozprofileQDoL7t"
+1638185620876	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\siven\\AppData\\Local\\Temp\\rust_mozprofileQDoL7t\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60452/devtools/browser/73819200-1b84-4641-a8ea-34c388ffc9cf
+1638185622573	Marionette	INFO	Listening on port 60458
+1638185622785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1638185636790	Marionette	INFO	Stopped listening on port 60458
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:186:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:66:5
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
